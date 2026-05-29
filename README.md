@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Speech Synthesis Visualizer
 
-## Getting Started
+Interactive visualization of modern Text-to-Speech (TTS) pipelines including FastSpeech2, Tacotron2, and VITS.
 
-First, run the development server:
+## Demo
+
+![Demo](public/screenshot.png)
+
+---
+
+## Features
+
+- FastSpeech2 pipeline visualization
+- Tacotron2 pipeline visualization
+- VITS architecture overview
+- Text → Phoneme conversion demo
+- Spectrogram generation visualization
+- Vocoder processing simulation
+- Audio playback controls
+- Voice and language selection
+- Interactive step-by-step workflow
+
+---
+
+## Technologies
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Web Speech API
+
+---
+
+## AI Concepts Covered
+
+### FastSpeech2
+
+- Non-autoregressive TTS
+- Variance adaptor
+- Fast inference
+
+### Tacotron2
+
+- Autoregressive architecture
+- Mel spectrogram generation
+- Attention mechanism
+
+### VITS
+
+- End-to-end TTS
+- Variational inference
+- Adversarial training
+
+### Speech Synthesis Pipeline
+
+Text Input
+
+↓
+
+Phoneme Processing
+
+↓
+
+Spectrogram Generation
+
+↓
+
+Vocoder
+
+↓
+
+Audio Output
+
+---
+
+## Installation
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+app/
+├── page.tsx
+├── layout.tsx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+public/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+README.md
+package.json
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pham Gia Huy
+
+- GitHub: https://github.com/HuyBruce
+- LinkedIn: https://linkedin.com/in/huy-bruce
