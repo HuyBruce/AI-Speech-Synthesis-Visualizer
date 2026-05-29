@@ -4,7 +4,7 @@ Interactive visualization of modern Text-to-Speech (TTS) pipelines including Fas
 
 ## Demo
 
-![Demo](public/screenshot.png)
+![Demo](./public/screenshot.png)
 
 ---
 
